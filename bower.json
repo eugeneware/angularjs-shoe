@@ -1,0 +1,10 @@
+{
+  "name": "angularjs-shoe",
+  "version": "0.0.1",
+  "main": "build/angularjs-shoe.js",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "components"
+  ]
+}
