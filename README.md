@@ -8,9 +8,9 @@ This module wraps the ```shoe``` library so that any ```$scope``` mutations are
 correctly wrapped with ```$rootScope.$apply``` calls so model changes are
 instantly reflected in the view.
 
-# Installation
+## Installation
 
-## npm
+### npm
 
 If you're using [browserify](https://github.com/substack/node-browserify) then
 install via npm:
@@ -25,7 +25,7 @@ and require ```angularjs-shoe``` in your ```browserify``` code:
 require('angularjs-shoe');
 ```
 
-## bower
+### bower
 
 If you're using [bower](http://bower.io) then install using the bower command
 line:
@@ -34,7 +34,7 @@ line:
 $ bower install angularjs-shoe
 ```
 
-## Old school
+### Old school
 
 If you just want to use the client library without a package manager then
 simply include the ```build/angularjs-bower.js``` or
@@ -59,7 +59,7 @@ simply include the ```build/angularjs-bower.js``` or
 </html>
 ```
 
-# Using angularjs-shoe from your AngularJS controllers
+## Using angularjs-shoe from your AngularJS controllers
 
 To use shoe from your controllers you simply define ```eugeneware.shoe```
 as a module dependency for your app and then you can use dependency injection
